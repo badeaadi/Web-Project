@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website login</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>
+
+<body>
+  <div class="title">
+    <header>
+      <h1>Welcome to my wesbite</h1>
+    </header>
+  </div>
+
+  <main>
+    <div class="login_stuff">
+        <div class="username_login">
+            <label><b>Username</b></label>
+
+            <input type="text" class="form" name="registerName" id="registerName" placeholder="username">
+        </div>
+
+        <div class="password_login">
+           <label><b>Password</b></label>
+            <input type="text" class="form" name="registerPassword" id ="registerPassword" placeholder="password">
+        </div>
+     </div>
+   </main>
+
+    <div class="actionbuttons">
+
+        <button type="button" class="btn" id="registerButton">Register</button>
+
+
+        <button type="submit" onclick="location.href='login.html'">Login</button>
+
+    </div>
+
+    <div class="register-result" id="register-result"></div>
+
+    <div id="footer">
+        Designed by Badea Adrian C&#259t&#259lin <br><br> <a href="https://github.com/badeaadi?tab=repositories"></a>
+    </div>
+
+</body>
+
+    <script src="register_script.js"></script>
+</html>

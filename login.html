@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website login</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="title">
+    <header>
+      <h1>Welcome to my wesbite</h1>
+    </header>
+  </div>
+
+ <main>
+    <div class="login_stuff">
+        <input type="text" class="form" name="loginName" id="loginName" placeholder="Name">
+        <input type="text" class="form" name="loginName" id="loginPassword" placeholder="password">
+     </div>
+   </main>
+
+    <div class="actionbuttons">
+
+        <button type="button" class="btn" id="loginButton">Login</button>
+
+        <div id="login-result"></div>
+
+            <h3> Or, if you don't have an account yet, </h3>
+
+        <div class="register_submit">
+            <button type="submit" onclick="location.href='register.html'">Register</button>
+        </div>
+    </div>
+
+    <div id="footer">
+        Designed by Badea Adrian C&#259t&#259lin <br><br> <a href="https://github.com/badeaadi?tab=repositories"></a>
+    </div>
+
+    <script src="login_script.js"></script>
+
+</body>
+
+</html>
