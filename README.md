@@ -2,6 +2,8 @@
 
 ## Start
 
+```
 node server.js
 
-Navigate the site starting from index.html
+
+## Navigate the site starting from index.html
